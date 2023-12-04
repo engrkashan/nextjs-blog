@@ -2,7 +2,7 @@ const schema = {
   name: "resourse",
   tite: "Resourse",
   type: "document",
-  field: [
+  fields: [
     {
       name: "title",
       title: "Title",
@@ -14,7 +14,7 @@ const schema = {
       name: "slug",
       title: "Slug",
       type: "slug",
-      options: { sourse: "title" },
+      options: { source: "title" },
     },
     {
       name: "downloadLink",
